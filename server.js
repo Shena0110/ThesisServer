@@ -1,10 +1,8 @@
 import { app } from './app.js';
-import {config} from 'dotenv';
+import dotenv from 'dotenv'; // Remove the curly braces
 import { connectDatabase } from './config/database.js';
 
-
-
-config({
+dotenv.config({
     path: "./config/config.env",
 });
 
