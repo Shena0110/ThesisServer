@@ -1,0 +1,6 @@
+version: 1
+services:
+  - name: ZamboSuroy-server
+    type: web
+    buildCommand: npm install
+    startCommand: npm start
